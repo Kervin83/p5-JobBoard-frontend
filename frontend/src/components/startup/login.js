@@ -76,7 +76,7 @@ const Login = (props) => {
       </div>
       <div>
         <span>
-          Not yet a members?
+          Not yet a member?
           <Button onClick={props.handleSwitchRegister}>Register</Button>
         </span>
       </div>
