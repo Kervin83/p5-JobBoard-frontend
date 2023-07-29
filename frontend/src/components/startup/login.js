@@ -70,14 +70,13 @@ const Login = (props) => {
             fontWeight: "bold",
             textTransform: "none",
           }}
-          onClick={handleLogin}
-        >
+          onClick={handleLogin}>
           Login
         </Button>
       </div>
       <div>
         <span>
-          Not yet a member?
+          Not yet a members?
           <Button onClick={props.handleSwitchRegister}>Register</Button>
         </span>
       </div>
